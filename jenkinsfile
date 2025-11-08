@@ -4,7 +4,7 @@ pipeline {
         maven 'Maven 3.9.9'
         }
     environment {
-        SERVER_IP    = '47.129.59.238'
+        SERVER_IP    = '47.130.154.251'
         SSH_CRED_ID  = 'node-app-key'
         TOMCAT_PATH  = '/var/lib/tomcat10/webapps'
         TOMCAT_SVC   = 'tomcat10'
